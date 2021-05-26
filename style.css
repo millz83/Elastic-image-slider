@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+
+
+.hero {
+     height: 100vh;
+     display:flex;
+     align-items: center;
+     justify-content: center;
+     background: gray;
+
+}
+
+#image1 {
+    background-image: url(images/fox.jpeg);
+}
+
+#image2 {
+    background-image: url(images/deer.jpeg);
+}
+
+#image3 {
+    background-image: url(images/donkeys.jpeg);
+}
+
+#image4 {
+    background-image: url(images/squirrel.jpeg);
+}
+
+#image5 {
+    background-image: url(images/mama-baby-monkey.jpeg);
+}
+
+
+.hero .elastic-slider {
+    cursor:grab;
+    width:800px;
+    height:600px;
+}
+
+.hero .elastic-slider div {
+  
+    background-position:center;
+}
